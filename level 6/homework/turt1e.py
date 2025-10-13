@@ -1,8 +1,9 @@
 from turtle import*
 
 # setup
-speed(8)
+speed(10)
 width(3)
+screensize(800,600)
 # castle side 1
 fillcolor("grey")
 begin_fill()
@@ -270,6 +271,55 @@ goto(350, 330)
 pendown()
 
 write("GOA", font=("Arial", 10, "bold"))
+
+# sky
+bgcolor("skyblue")
+
+
+# grass
+penup()
+goto(-600, -1)
+pendown()
+color("green")
+begin_fill()
+right(180)
+forward(1600)
+right(90)
+forward(400)
+right(90)
+forward(1600)
+
+end_fill()
+
+
+#sun
+penup()
+goto(200, 500)
+pendown()
+color("yellow")
+begin_fill()
+circle(100)
+end_fill()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # end <3
 

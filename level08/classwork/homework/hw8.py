@@ -93,6 +93,5 @@ age = 16 # int -ასაკი
 year = 2025 # int -წელი
 score = 100 # int -ქულა
 students = 25 # int -სტუდენტები
-level = 08 # int -ლეველი
+level = 8 # int -ლეველი
 
-# hw7

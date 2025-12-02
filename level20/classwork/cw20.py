@@ -1,11 +1,11 @@
-languages = ["pythion","javascript","css","php","html"]
+# languages = ["pythion","javascript","css","php","html"]
 
-print(languages)
-print(languages(0))
-print(languages(1))
-print(languages(2))
-print(languages(3))
-print(languages(4))
+# print(languages)
+# print(languages(0))
+# print(languages(1))
+# print(languages(2))
+# print(languages(3))
+# print(languages(4))
 
 cold_drinks = ["cola", "fanta", "sprite", "ice tea"]
 index = int(input("enter drink index: "))
